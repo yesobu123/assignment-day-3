@@ -1,6 +1,6 @@
-def gen_arm():                                                                                   
+def gen_arm():                                                                     
        	for num in range(1024000, 702648265):                                                  
-      		order = len(str(num))                                                          
+       		order = len(str(num))                                                          
        		sum = 0                                                                      
        		temp = num                                                                 
        		while temp > 1024000:                                                          
